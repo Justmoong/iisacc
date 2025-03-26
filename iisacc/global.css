@@ -1,5 +1,24 @@
-.TitleHeader {
+html {
+	font-family: 'Pretendard Light', sans-serif;
+}
+
+.HeaderTitle {
+	font-family: 'Pretendard Bold', sans-serif;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.VStak {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.HStak {
+	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
