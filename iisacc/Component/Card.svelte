@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <title>카드 컴포넌트 예제</title>
-  <style>
-    .card {
+<!-- src/Card.svelte -->
+<script>
+  export let title = "카드 제목";
+  export let description = "카드 설명";
+</script>
+
+<div class="card">
+  <div class="card-content">
+    <h3 class="card-title">{title}</h3>
+    <p class="card-description">{description}</p>
+  </div>
+</div>
+
+<style>
+  .card {
       width: 300px;
       border: 1px solid #ddd;
       border-radius: 12px;
@@ -13,12 +21,6 @@
       font-family: 'Segoe UI', sans-serif;
       background-color: #fff;
       margin: 1rem;
-    }
-
-    .card img {
-      width: 100%;
-      height: auto;
-      display: block;
     }
 
     .card-content {
@@ -37,5 +39,4 @@
       color: #666;
       margin: 0;
     }
-  </style>
-</head>
+</style>
