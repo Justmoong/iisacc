@@ -1,40 +1,40 @@
 <!-- src/Card.svelte -->
 <script>
-  export let title = "카드 제목";
-  export let description = "카드 설명";
+  export let title = "";
+  export let description = "";
 </script>
 
-<div class="card">
-  <div class="card-content">
-    <h3 class="card-title">{title}</h3>
-    <p class="card-description">{description}</p>
+<div class="cardBody">
+  <div class="cardContent">
+    <h3 class="cardTitle">{title}</h3>
+    <p class="cardDescription">{description}</p>
   </div>
 </div>
 
 <style>
-  .card {
-      width: 300px;
-      border: 1px solid #ddd;
-      border-radius: 12px;
+  .cardBody {
+      width: 328px;
+      height: 520px;
+      border-radius: 32px;
       overflow: hidden;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      font-family: 'Segoe UI', sans-serif;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+      font-family: 'Pretendard', sans-serif;
       background-color: #fff;
       margin: 1rem;
+      text-align: left;
     }
 
-    .card-content {
-      padding: 16px;
+    .cardContent {
+      padding: 32px;
     }
 
-    .card-title {
+    .cardTitle {
       font-size: 1.25rem;
-      margin: 0 0 0.5rem 0;
       font-weight: bold;
       color: #333;
     }
 
-    .card-description {
+    .cardDescription {
       font-size: 0.95rem;
       color: #666;
       margin: 0;
