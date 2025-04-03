@@ -1,5 +1,5 @@
 <script>
-  import Card from './Component/Card.svelte';
+  import Card from './UIComponents/Card.svelte';
   let Title = 'IISACC';
 </script>
 
