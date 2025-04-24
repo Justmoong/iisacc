@@ -6,9 +6,9 @@
   <contents>
 	<h1 class="HeaderTitle">{Title}</h1>
 	<div class="CardContainer">
-	  <Card title="Title" description="Description" />
-	  <a href="/TestPage"><Card title="Title" description="Description" /></a>
-	  <a href="https://www.google.com"><Card title="Title" description="Description" /></a>
+	  <Card title="Title" description="Description" isShowOutButton={false}/>
+	  <a href="/TestPage"><Card title="Title" description="Description" isShowOutButton={false}/></a>
+	  <a href="https://www.google.com"><Card title="Title" description="Test Card to go Google" isShowOutButton={true}/></a>
 	</div>
   </contents>
   
