@@ -1,5 +1,5 @@
 <script>
-	import Card from '../lib/UIComponents/Card.svelte';
+	import Card from '$lib/UIComponents/Card.svelte';
 	let Title = 'IISACC';
   </script>
   
@@ -7,7 +7,7 @@
 	<h1 class="HeaderTitle">{Title}</h1>
 	<div class="CardContainer">
 	  <Card title="Title" description="Description" />
-	  <Card title="Title" description="Description" />
+	  <a href="/TestPage"><Card title="Title" description="Description" /></a>
 	  <a href="https://www.google.com"><Card title="Title" description="Description" /></a>
 	</div>
   </contents>
