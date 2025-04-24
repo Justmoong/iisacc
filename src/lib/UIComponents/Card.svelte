@@ -21,15 +21,17 @@
 
 <style>
   .cardBody {
-      width: 328px;
-      height: 520px;
+      width: 300px;
+      height: 480px;
+      max-width: 320px;
+      max-height: 540px;
       border-radius: 32px;
-      overflow: hidden;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
-      font-family: 'Pretendard', sans-serif;
-      background-color: #fff;
       margin: 1rem;
+      font-family: 'Pretendard', sans-serif;
       text-align: left;
+      background-color: #fff;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
     }
 
     .cardContent {

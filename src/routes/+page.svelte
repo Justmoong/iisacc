@@ -1,10 +1,12 @@
 <script>
 	import Card from '$lib/UIComponents/Card.svelte';
+	import BlankTextBox from '$lib/UIComponents/BlankTextBox.svelte';
 	let Title = 'IISACC';
   </script>
   
   <contents>
 	<h1 class="HeaderTitle">{Title}</h1>
+	<BlankTextBox text="Hello, World!"/>
 	<div class="CardContainer">
 	  <Card title="Title" description="Description" isShowOutButton={false}/>
 	  <a href="/TestPage"><Card title="Title" description="Description" isShowOutButton={false}/></a>
@@ -14,9 +16,11 @@
   
   <style>
 	contents {
-	  text-align: center;
-	  padding: 1em;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
 	  margin: 0 auto;
+	  gap: 32px;
 	}
   
 	.HeaderTitle {
@@ -24,7 +28,7 @@
 	  display: flex;
 	  justify-content: center;
 	  align-items: center;
-	  padding: 2rem 0;
+	  padding-top: 128px;
 	}
   
 	.CardContainer {
