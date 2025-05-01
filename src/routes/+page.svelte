@@ -1,17 +1,19 @@
 <script>
 	import Card from '$lib/UIComponents/Card.svelte';
 	import BlankTextBox from '$lib/UIComponents/BlankTextBox.svelte';
-	let Title = 'IISACC';
-  </script>
+	import Title from '$lib/UIComponents/Title.svelte';
+</script>
   
   <contents>
-	<h1 class="HeaderTitle">{Title}</h1>
+	<Title title="IISACC"/>
 	<BlankTextBox text="Hello, World!"/>
 	<div class="CardContainer">
 	  <Card title="Title" description="Description" isShowOutButton={false}/>
-	  <a href="/TestPage"><Card title="Title" description="Description" isShowOutButton={false}/></a>
+	  <a href="/UIPlayground"><Card title="Title" description="Description" isShowOutButton={true}/></a>
 	  <a href="https://www.google.com"><Card title="Title" description="Test Card to go Google" isShowOutButton={true}/></a>
+
 	</div>
+
   </contents>
   
   <style>
@@ -22,19 +24,10 @@
 	  margin: 0 auto;
 	  gap: 32px;
 	}
-  
-	.HeaderTitle {
-	  font-family: 'Pretendard Bold', sans-serif;
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	  padding-top: 128px;
-	}
-  
 	.CardContainer {
 	  display: flex;
 	  flex-wrap: wrap;
 	  justify-content: center;
 	  gap: 1rem;
 	}
-  </style> 
+  </style>

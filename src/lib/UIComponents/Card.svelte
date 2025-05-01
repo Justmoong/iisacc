@@ -1,5 +1,7 @@
 <!-- src/Card.svelte -->
 <script>
+  import OutButton from "$lib/UIComponents/OutButton.svelte";
+
   export let title = "";
   export let description = "";
   export let isShowOutButton = false;
@@ -13,7 +15,7 @@
     </div>
     {#if isShowOutButton}
       <div class="buttonContainer">
-        <button class="outButton">></button>
+        <OutButton/>
       </div>
     {/if}
   </div>
@@ -62,24 +64,5 @@
     .buttonContainer {
       display: flex;
       justify-content: flex-end;
-    }
-
-    .outButton {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: #f0f0f0;
-      border: none;
-      cursor: pointer;
-      font-size: 1.2rem;
-      color: #606060;
-      transition: background-color 0.2s;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .outButton:hover {
-      background-color: #e0e0e0;
     }
 </style>

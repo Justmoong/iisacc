@@ -18,55 +18,16 @@ body {
 	font-family: 'Pretendard', sans-serif;
 	background-color: #f5f5f5;
 	margin: 0 auto;
-}
-
-#app {
-	width: 100%;
-	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-:root {
-	font-family: 'Pretendard Light', sans-serif;
-	background-color: #F5F5F5;
-}
 
+
+ /*disable link text's underline */
 a {
 	text-decoration: none;
 	text-transform: none;
 }
 
-.VStak {
-	width: 100%;
-	max-width: 1440px;
-	margin: 32px auto;
-	display: flex;
-	flex-direction: column;
-}
-
-.HStak {
-	width: 100%;
-	max-width: 1440px;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: row;
-}
-
-.HomeSectionContetnsBar {
-	background-color: #f5f5f5;
-	padding: 1.5rem;
-}
-
-.HomeSectionContetnsBar h2 {
-	font-family: 'Pretendard Bold', sans-serif;
-	margin-bottom: 1rem;
-	color: #333;
-}
-
-.content-box {
-	background-color: white;
-	padding: 1rem;
-	min-height: 120px;
-}

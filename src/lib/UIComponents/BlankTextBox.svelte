@@ -22,8 +22,6 @@
 		text-align: left;
 		color: black;
 		padding: 16px;
-		background-color: #f8f8f8;
-		border-radius: 12px;
 		line-height: 1.5;
 		height: fit-content;
 		word-wrap: break-word;
