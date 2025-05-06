@@ -3,9 +3,9 @@
 </script>
 
 <contents>
-	<div class="textBox">
+	<textBox>
 		{text}
-	</div>
+	</textBox>
 </contents>
 
 <style>
@@ -17,10 +17,10 @@
 		justify-content: center;
 	}
 
-	.textBox {
+	textBox {
 		width: 100%;
 		text-align: left;
-		color: black;
+		color: var(--color-text-primary);
 		padding: 16px;
 		line-height: 1.5;
 		height: fit-content;

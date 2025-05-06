@@ -31,8 +31,7 @@
       margin: 1rem;
       font-family: 'Pretendard', sans-serif;
       text-align: left;
-      background-color: #fff;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+      background-color: var(--color-text-disabled);
       overflow: hidden;
     }
 
@@ -50,13 +49,13 @@
     .cardTitle {
       font-size: 1.25rem;
       font-weight: bold;
-      color: #333;
+      color: var(--color-text-primary);
       margin-bottom: 8px;
     }
 
     .cardDescription {
       font-size: 0.95rem;
-      color: #666;
+      color: var(--color-text-secondary);
       margin: 0;
       margin-bottom: 16px;
     }

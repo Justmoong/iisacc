@@ -33,6 +33,7 @@
 			background-color: #515151;
 			padding: 16px;
 			align-content: left;
+			color: var(--color-text-primary);
 	}
 
 	.icon {
