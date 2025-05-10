@@ -19,7 +19,7 @@
 
 	textBox {
 		width: 100%;
-		text-align: left;
+		text-align: center;
 		color: var(--color-text-primary);
 		padding: 16px;
 		line-height: 1.5;

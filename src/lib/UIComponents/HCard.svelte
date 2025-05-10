@@ -1,4 +1,4 @@
-<!-- src/Card.svelte -->
+<!-- src/HCard.svelte -->
 <script>
   import OutButton from "$lib/UIComponents/OutButton.svelte";
 
