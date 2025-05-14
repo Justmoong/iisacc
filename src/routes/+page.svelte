@@ -6,11 +6,11 @@
 </script>
   
   <contents>
-	<Title title="IISACC" background="/images/TitleBackground1.png"/>
+	<Title title="IISACC" background="/images/TitleBackground1.jpg"/>
 	<BlankTextBox text="Think and Develop For Functionality, Pragmatic Applications & Clients"/>
 	<cardContainer>
-	  <HCard title="Title" description="Description" isShowOutButton={false}/>
-	  <a href="/UIPlayground"><HCard title="Title" description="Description" isShowOutButton={true}/></a>
+	  <HCard title="Title" description="Description" background="/images/apple-logo-WWDC.jpg" />
+	  <HCard title="Title" description="Description" background="/images/apple-logo-WWDC.jpg" link="/UIPlayground" />
 	</cardContainer>
 
 
@@ -25,6 +25,7 @@
 	  flex-direction: column;
 	  align-items: center;
 	  margin: 0 auto;
+			gap: 64px;
 	}
 
 	cardContainer {
