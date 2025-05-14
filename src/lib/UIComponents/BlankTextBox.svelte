@@ -19,6 +19,8 @@
 
 	textBox {
 		width: 100%;
+		font-size: 17px;
+		font-weight: 400;
 		text-align: center;
 		color: var(--color-text-primary);
 		padding: 16px;

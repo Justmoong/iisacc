@@ -4,7 +4,7 @@
 </script>
 
 <contents style={`background-image: url('${background}');`}>
-	<background />
+	<background></background>
 	<text>{title}</text>
 </contents>
 
@@ -33,7 +33,7 @@
         mix-blend-mode: multiply;
         z-index: 1;
         pointer-events: none;
-        display: block; /* 핵심 */
+        display: block;
     }
 
     text {

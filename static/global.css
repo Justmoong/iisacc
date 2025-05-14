@@ -28,6 +28,9 @@ body {
 a {
 	text-decoration: none;
 	text-transform: none;
+	display: block;
+	text-decoration: none;
+	color: inherit;
 }
 
 :root {
