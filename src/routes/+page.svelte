@@ -6,12 +6,11 @@
 </script>
   
   <contents>
-	<Title title="IISACC"/>
+	<Title title="IISACC" background="/images/TitleBackground1.png"/>
 	<BlankTextBox text="Think and Develop For Functionality, Pragmatic Applications & Clients"/>
 	<cardContainer>
 	  <HCard title="Title" description="Description" isShowOutButton={false}/>
 	  <a href="/UIPlayground"><HCard title="Title" description="Description" isShowOutButton={true}/></a>
-	  <a href="https://www.google.com"><HCard title="Title" description="Test Card to go Google" isShowOutButton={true}/></a>
 	</cardContainer>
 
 
@@ -22,15 +21,19 @@
 <style>
 	contents {
 	  display: flex;
+		width: 100%;
 	  flex-direction: column;
 	  align-items: center;
 	  margin: 0 auto;
-	  gap: 32px;
 	}
+
 	cardContainer {
 	  display: flex;
+		width: 100%;
+	  flex-direction: row;
 	  flex-wrap: wrap;
-	  justify-content: center;
-	  gap: 1rem;
+	  justify-content: space-between;
+		margin: 0 auto;
+		row-gap: 64px;
 	}
 </style>

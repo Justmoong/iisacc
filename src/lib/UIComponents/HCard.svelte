@@ -23,12 +23,11 @@
 
 <style>
   .cardBody {
-      width: 300px;
-      height: 480px;
-      max-width: 320px;
-      max-height: 540px;
+      width: 680px;
+      height: 820px;
+      min-width: 320px;
+      min-height: 540px;
       border-radius: 32px;
-      margin: 1rem;
       font-family: 'Pretendard', sans-serif;
       text-align: left;
       background-color: var(--color-text-disabled);
@@ -47,14 +46,14 @@
     }
 
     .cardTitle {
-      font-size: 1.25rem;
+      font-size: 24px;
       font-weight: bold;
       color: var(--color-text-primary);
       margin-bottom: 8px;
     }
 
     .cardDescription {
-      font-size: 0.95rem;
+      font-size: 16px;
       color: var(--color-text-secondary);
       margin: 0;
       margin-bottom: 16px;
