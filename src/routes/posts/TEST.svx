@@ -1,3 +1,9 @@
+---
+title: "예제 제목"
+date: "2024-05-14"
+description: "간단한 설명"
+---
+
 # IISACC
 
 ### Website for showcasing my personal workshops, projects and more
