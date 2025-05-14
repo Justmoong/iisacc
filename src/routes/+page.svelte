@@ -13,9 +13,6 @@
 	  <HCard title="Title" description="Description" background="/images/apple-logo-WWDC.jpg" link="/UIPlayground" />
 	</cardContainer>
 
-
-		<RecentPostsList/>
-
   </contents>
   
 <style>
