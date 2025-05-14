@@ -6,7 +6,7 @@
   
   <contents>
 	<Title title="IISACC"/>
-	<BlankTextBox text="Think and Develop For Functionality, Pragmatic Applications, Clients"/>
+	<BlankTextBox text="Think and Develop For Functionality, Pragmatic Applications & Clients"/>
 	<cardContainer>
 	  <HCard title="Title" description="Description" isShowOutButton={false}/>
 	  <a href="/UIPlayground"><HCard title="Title" description="Description" isShowOutButton={true}/></a>
