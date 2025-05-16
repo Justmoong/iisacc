@@ -1,4 +1,3 @@
-<!-- src/HCard.svelte -->
 <script>
   export let title = "";
   export let description = "";
@@ -36,17 +35,23 @@
 
   textContent {
     flex: 1;
+    display: flex;
+    flex-direction: column;
   }
 
   cardTitle {
-    font-size: 24px;
+    font-size: var(--text-header);
     font-weight: 500;
     color: var(--color-text-primary);
     margin-bottom: 8px;
   }
 
+  a {
+    display: inline-block;
+  }
+
   cardDescription {
-    font-size: 16px;
+    font-size: var(--text-body);
     color: var(--color-text-primary);
   }
 </style>

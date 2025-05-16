@@ -48,4 +48,15 @@ a {
 	--color-text-primary: #EAECF6;
 	--color-text-secondary: #D7D8E1;
 	--color-text-disabled: #52535A;
+
+	/* contents font sizes */
+	--text-title: 64px;
+	--text-subtitle: 48px;
+	--text-header: 32px;
+	--text-subheader: 24px;
+	--text-body: 17px;
+	--text-caption: 13px;
+
+	/* ui font sizes */
+	--text-ui: 20px;
 }

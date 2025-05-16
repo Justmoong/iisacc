@@ -19,7 +19,7 @@
 
 	textBox {
 		width: 100%;
-		font-size: 17px;
+		font-size: var(--text-body);
 		font-weight: 400;
 		text-align: center;
 		color: var(--color-text-primary);

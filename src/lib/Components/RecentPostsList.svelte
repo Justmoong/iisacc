@@ -8,28 +8,22 @@
 				.pop()
 				.replace('.svx', '');
 
-			// frontmatter에서 date를 가져와 Date 객체로 변환
-			const dateString = module.metadata?.date; // 옵셔널 체이닝으로 metadata 존재 확인
+			const dateString = module.metadata?.date;
 			const date = dateString ? new Date(dateString) : null;
 
-			// date가 유효하지 않으면 콘솔에 경고를 남기고 null을 반환하여 필터링되도록 할 수 있음
-			// 또는 기본 날짜를 사용하거나 다른 방식으로 처리
 			if (!date || isNaN(date.getTime())) {
 				console.warn(`Invalid or missing date in frontmatter for ${path}. Post will be excluded or handled differently.`);
-				// 여기서 null을 반환하면 아래 filter에서 걸러집니다.
-				// return null;
 			}
 
 			return {
 				slug,
-				title: module.metadata?.title ?? '제목 없음', // title 기본값 처리
-				date: date, // 유효하거나 Invalid Date 객체일 수 있음
+				title: module.metadata?.title ?? '제목 없음',
+				date: date,
 				description: module.metadata?.description ?? '',
 			};
 		})
-		// .filter(post => post !== null) // 위에서 null을 반환했다면 여기서 필터링
+
 		.sort((a, b) => {
-			// 유효한 날짜끼리 비교, Invalid Date는 뒤로 보내는 등의 처리
 			const timeA = a.date ? a.date.getTime() : 0;
 			const timeB = b.date ? b.date.getTime() : 0;
 
@@ -37,7 +31,7 @@
 			if (isNaN(timeA)) return 1; // a의 날짜가 유효하지 않으면 뒤로
 			if (isNaN(timeB)) return -1; // b의 날짜가 유효하지 않으면 뒤로
 
-			return timeB - timeA; // 최신순 정렬
+			return timeB - timeA;
 		})
 		.slice(0, 10);
 </script>
