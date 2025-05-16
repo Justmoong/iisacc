@@ -1,3 +1,31 @@
+:root {
+	--color-accent-blue: #007AFF;
+	--color-accent-red: #DB1111;
+	--color-accent-green: #3A9D3E;
+	--color-accent-yellow: #FFD30A;
+	--color-accent-orange: #FF9F21;
+	--color-accent-purple: #B90BFF;
+	--color-accent-cyan: #13FFD6;
+	--color-accent-indigo: #FFD30A;
+
+	--color-background-primary: #1E1E1E;
+
+	--color-text-primary: #EAECF6;
+	--color-text-secondary: #D7D8E1;
+	--color-text-disabled: #52535A;
+
+	/* contents font sizes */
+	--text-title: 64px;
+	--text-subtitle: 48px;
+	--text-header: 32px;
+	--text-subheader: 24px;
+	--text-body: 17px;
+	--text-caption: 13px;
+
+	/* ui font sizes */
+	--text-ui: 20px;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -33,30 +61,3 @@ a {
 	color: inherit;
 }
 
-:root {
-	--color-accent-blue: #007AFF;
-	--color-accent-red: #DB1111;
-	--color-accent-green: #3A9D3E;
-	--color-accent-yellow: #FFD30A;
-	--color-accent-orange: #FF9F21;
-	--color-accent-purple: #B90BFF;
-	--color-accent-cyan: #13FFD6;
-	--color-accent-indigo: #FFD30A;
-
-	--color-background-primary: #1E1E1E;
-
-	--color-text-primary: #EAECF6;
-	--color-text-secondary: #D7D8E1;
-	--color-text-disabled: #52535A;
-
-	/* contents font sizes */
-	--text-title: 64px;
-	--text-subtitle: 48px;
-	--text-header: 32px;
-	--text-subheader: 24px;
-	--text-body: 17px;
-	--text-caption: 13px;
-
-	/* ui font sizes */
-	--text-ui: 20px;
-}

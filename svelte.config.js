@@ -1,15 +1,24 @@
 import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-static';
-import sveltePreprocess from 'svelte-preprocess'; // 임포트 이름을 sveltePreprocess로 명확히 할 수 있습니다 (선택 사항)
+import sveltePreprocess from 'svelte-preprocess';
+import { fileURLToPath } from 'url';
+import path from 'path';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const config = {
 	extensions: ['.svelte', '.svx'],
 	preprocess: [
-		mdsvex({ extensions: ['.svx'] }), // mdsvex를 먼저 실행
-		sveltePreprocess() // 그 다음 svelte-preprocess 실행
+		mdsvex({
+			extensions: ['.svx'],
+			layout: {
+				'*': path.resolve(__dirname, 'src/lib/Layouts/BlogLayout.svelte')
+			}
+		}),
+		sveltePreprocess()
 	],
 	kit: {
-		adapter: adapter({ fallback: 'index.html' }),
+		adapter: adapter(),
 		prerender: {
 			entries: ['*']
 		}

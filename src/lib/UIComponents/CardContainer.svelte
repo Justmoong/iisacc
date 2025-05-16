@@ -3,7 +3,7 @@
 </script>
 
 <contents>
-	<slot></slot>
+	<slot />
 </contents>
 
 
