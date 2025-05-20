@@ -1,6 +1,5 @@
 import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-static';
-import sveltePreprocess from 'svelte-preprocess';
 import { fileURLToPath } from 'url';
 import path from 'path';
 
@@ -14,8 +13,7 @@ const config = {
 			layout: {
 				'*': path.resolve(__dirname, 'src/lib/Layouts/BlogLayout.svelte')
 			}
-		}),
-		sveltePreprocess()
+		})
 	],
 	kit: {
 		adapter: adapter(),
