@@ -51,7 +51,12 @@ body {
 	align-items: center;
 }
 
-
+p {
+	display: flex;
+	max-width: 1080px;
+	font-size: var(--text-body);
+	color: var(--color-text-secondary);
+}
 
  /*disable link text's underline */
 a {

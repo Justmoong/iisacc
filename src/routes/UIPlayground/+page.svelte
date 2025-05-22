@@ -1,7 +1,7 @@
 <script>
 	import OutButton from '$lib/UIComponents/OutButton.svelte';
-	import ItemCard from '$lib/UIComponents/ItemCard.svelte';
-	import VCard from '$lib/UIComponents/VCard.svelte';
+	import ItemCard from '$lib/UIComponents/Card/ItemCard.svelte';
+	import VCard from '$lib/UIComponents/Card/VCard.svelte';
 
 </script>
 <h1>

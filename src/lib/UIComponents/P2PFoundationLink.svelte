@@ -25,6 +25,7 @@
 
     .p2p-text {
 				font-size: var(--text-caption);
+				color: var(--color-text-secondary);
         flex: 1;
     }
 
@@ -37,17 +38,17 @@
     }
 
     .p2p-button:hover {
-        background-color: #444;
+        color: var(--color-text-primary);
     }
 </style>
 
 <div class="p2p-container">
 	<img src={logo} alt="P2P Foundation Logo" class="p2p-logo" />
-	<div class="p2p-text">
-		<p>
+	<div>
+		<p class="p2p-text">
 			This website agrees with the philosophy of the P2P Foundation to share ideas about technology and social structure, and contributes the practice of autonomous knowledge sharing and decentralized collaboration.		</p>
 	</div>
 	<a class="p2p-button" href={url} target="_blank" rel="noopener noreferrer">
-		Visit P2P Foundation Wiki
+		Visit P2PF Wiki
 	</a>
 </div>

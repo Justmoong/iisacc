@@ -11,7 +11,7 @@
 <style>
 	contents {
 		width: 100%;
-		max-width: 720px;
+		max-width: 1280px;
 		min-width: 320px;
 		display: flex;
 		justify-content: center;

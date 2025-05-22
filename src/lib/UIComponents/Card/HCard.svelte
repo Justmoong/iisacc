@@ -20,7 +20,7 @@
   cardBody {
     position: relative;
     width: 680px;
-    height: 820px;
+    min-height: 820px;
     background-size: cover;
     background-position: center;
     overflow: hidden;
