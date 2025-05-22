@@ -5,6 +5,7 @@
 	import VCard from '$lib/UIComponents/VCard.svelte';
 	import CardContainer from '$lib/UIComponents/CardContainer.svelte';
 	import RecentPostsList from '$lib/Components/RecentPostsList.svelte';
+	import P2PFoundationLink from '$lib/UIComponents/P2PFoundationLink.svelte';
 
 </script>
   
@@ -17,6 +18,7 @@
 		<VCard title="Title" description="desc" background="/images/apple-logo-WWDC.jpg" />
 	</CardContainer>
 		<RecentPostsList />
+		<P2PFoundationLink />
 
   </contents>
   
