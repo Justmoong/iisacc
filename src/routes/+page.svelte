@@ -1,17 +1,18 @@
 <script>
-	import BlankTextBox from '$lib/UIComponents/BlankTextBox.svelte';
-	import Title from '$lib/UIComponents/Title.svelte';
+
 
 </script>
   
 <contents>
-	<Title title="IISACC"/>
+	<title>IISACC</title>
 	<links>
 		<a href="https://www.google.com">google</a>
 		<a href="https://www.google.com">google</a>
 		<a href="/UIPlayground">google</a>
 	</links>
-	<BlankTextBox text="Think and develop more existential application and client development"/>
+	<p>
+		Think and develop more existential application and client development
+	</p>
 		<p>I think that the development of technological civilization should go beyond society itself and make a practical contribution to the lives of individuals. I think that technology and learning should not be the end goal, and I think deeply about increasing personal life on the physical level by optimizing survival, health, housing, environment, and fundamental human attributes.</p>
 
 </contents>
@@ -25,6 +26,17 @@
 		padding: 16px;
 	  margin: 0 auto;
 		gap: 64px;
+	}
+
+	title {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 32px;
+      width: 100%;
+      font-size: 64px;
+      font-weight: 600;
 	}
 
 	links {
