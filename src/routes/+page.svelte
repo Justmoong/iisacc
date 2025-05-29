@@ -4,11 +4,13 @@
 </script>
   
 <contents>
-	<title>IISACC</title>
+	<title>
+		IISACC
+	</title>
 	<links>
 		<a href="https://www.google.com">google</a>
-		<a href="https://www.google.com">google</a>
-		<a href="/UIPlayground">google</a>
+		<a href="UIPlayground">UIPlayground</a>
+		<a href="/Posts/The Illusion of Thoughtfulness">ExamplePost</a>
 	</links>
 	<p>
 		Think and develop more existential application and client development
@@ -43,6 +45,8 @@
 		display: flex;
 		flex-direction: row;
 			gap: 32px;
+			font-size: var(--text-ui);
+			font-weight: 600;
 	}
 
 </style>
