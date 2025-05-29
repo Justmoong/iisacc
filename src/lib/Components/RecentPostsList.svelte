@@ -1,5 +1,5 @@
 <script>
-	const modules = import.meta.glob('../../routes/posts/*.svx', { eager: true });
+	const modules = import.meta.glob('../../routes/Posts/*.svx', { eager: true });
 
 	const posts = Object.entries(modules)
 		.map(([path, module]) => {

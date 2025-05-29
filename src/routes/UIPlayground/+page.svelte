@@ -2,6 +2,7 @@
 	import OutButton from '$lib/UIComponents/OutButton.svelte';
 	import ItemCard from '$lib/UIComponents/Card/ItemCard.svelte';
 	import VCard from '$lib/UIComponents/Card/VCard.svelte';
+	import Test from '$lib/UIComponents/Test.svelte';
 
 </script>
 <h1>
@@ -10,7 +11,8 @@
 <OutButton/>
 <ItemCard title="Title" isShowDescription=true description="Desription"/>
 <VCard title="Title" description="desc" background="images/TitleBackground1.jpg" />
-<a href="/posts/TEST">TEST.svx</a>
+<a href="/src/lib/Posts/TEST">TEST.svx</a>
+<Test/>
 
 <style>
 
