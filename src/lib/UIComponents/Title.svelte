@@ -4,7 +4,6 @@
 </script>
 
 <contents style={`background-image: url('${background}');`}>
-	<background></background>
 	<text>{title}</text>
 </contents>
 
@@ -14,33 +13,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 128px;
+        padding: 32px;
         width: 100%;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        overflow: hidden;
         font-size: 64px;
-        font-family: 'Pretendard Bold', sans-serif;
+				font-weight: 600;
         color: var(--color-text-primary);
-    }
-
-    background {
-        position: absolute;
-        inset: 0;
-        background-color: black;
-        opacity: 0.5;
-        mix-blend-mode: multiply;
-        z-index: 1;
-        pointer-events: none;
-        display: block;
     }
 
     text {
         position: relative;
-        z-index: 2;
         color: var(--color-text-primary);
         font-size: 64px;
-        font-family: 'Pretendard Bold', sans-serif;
     }
 </style>
