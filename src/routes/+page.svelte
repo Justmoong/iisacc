@@ -8,10 +8,11 @@
 		IISACC
 	</div>
 	<div class="links">
-		<a href="https://www.google.com">google</a>
+		<a href="https://www.google.com">Google</a>
 		<a href="UIPlayground">UIPlayground</a>
 		<a href="/Posts/The Illusion of Thoughtfulness">ExamplePost</a>
 	</div>
+	<hr class="divider" />
 	<p>
 		Think and develop more existential application and client development
 	</p>
@@ -22,7 +23,7 @@
 <style>
 	.contents {
 	  display: flex;
-		max-width: 720px;
+		width: 100%;
 	  flex-direction: column;
 	  align-items: center;
 		padding: 16px;
@@ -44,9 +45,16 @@
 	.links {
 		display: flex;
 		flex-direction: row;
-			gap: 32px;
-			font-size: var(--text-ui);
-			font-weight: 600;
+		gap: 32px;
+		font-size: var(--text-ui);
+		font-weight: 600;
 	}
+
+  .divider {
+			width: 100%;
+      height: 1px;
+      background-color: #fff;
+      margin: 32px 0;
+  }
 
 </style>
