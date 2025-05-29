@@ -2,14 +2,14 @@
 
 </script>
 
-<contents>
+<div class="contents">
 	<slot />
-</contents>
+</div>
 
 
 <style>
 
-	contents {
+	.contents {
       display: flex;
       width: 100%;
       flex-direction: row;

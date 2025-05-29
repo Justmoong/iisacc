@@ -5,19 +5,19 @@
 	export let link = "";
 </script>
 
-<cardBody style={`background-image: url('${background}');`}>
-	<cardContent>
-		<textContent>
-			<cardTitle>
+<div class="cardBody" style={`background-image: url('${background}');`}>
+	<div class="cardContent">
+		<div class="textContent">
+			<div class="cardTitle">
 				<a href={link}>{title}</a>
-			</cardTitle>
-			<cardDescription>{description}</cardDescription>
-		</textContent>
-	</cardContent>
-</cardBody>
+			</div>
+			<div class="cardDescription">{description}</div>
+		</div>
+	</div>
+</div>
 
 <style>
-    cardBody {
+    .cardBody {
         position: relative;
         width: 1440px;
         min-height: 820px;
@@ -27,19 +27,19 @@
         border-radius: 64px;
     }
 
-    cardContent {
+    .cardContent {
         padding: 32px;
         display: flex;
         flex-direction: column;
     }
 
-    textContent {
+    .textContent {
         flex: 1;
         display: flex;
         flex-direction: column;
     }
 
-    cardTitle {
+    .cardTitle {
         font-size: var(--text-header);
         font-weight: 500;
         color: var(--color-text-primary);
@@ -50,7 +50,7 @@
         display: inline-block;
     }
 
-    cardDescription {
+    .cardDescription {
         font-size: var(--text-body);
         color: var(--color-text-primary);
     }

@@ -5,7 +5,7 @@
 	export let description = ""
 </script>
 
-<contents>
+<div class="contents">
 	<div class="icon">
 		{image}
 	</div>
@@ -19,11 +19,11 @@
 			</div>
 		{/if}
 	</div>
-</contents>
+</div>
 
 <style>
 
-	contents {
+	.contents {
 			width: 1080px;
 			height: 120px;
 			min-width: 300px;
