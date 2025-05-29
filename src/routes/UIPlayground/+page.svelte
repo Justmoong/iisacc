@@ -2,7 +2,6 @@
 	import OutButton from '$lib/UIComponents/OutButton.svelte';
 	import ItemCard from '$lib/UIComponents/Card/ItemCard.svelte';
 	import VCard from '$lib/UIComponents/Card/VCard.svelte';
-	import Test from '$lib/UIComponents/Test.svelte';
 
 </script>
 <h1>
