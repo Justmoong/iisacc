@@ -11,7 +11,7 @@ const config = {
 		mdsvex({
 			extensions: ['.svx'],
 			layout: {
-				'*': path.resolve(__dirname, 'src/lib/Layouts/BlogLayout.svelte')
+				'*': path.resolve(__dirname, 'src/lib/Layouts/PostLayout.svelte')
 			}
 		})
 	],

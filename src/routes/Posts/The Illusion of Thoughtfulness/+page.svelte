@@ -1,11 +1,11 @@
 <script>
-	import BlogLayout from '$lib/Layouts/BlogLayout.svelte';
+	import PostLayout from '$lib/Layouts/PostLayout.svelte';
 	import Post from '$lib/Posts/The Illusion of Thoughtfulness.svx';
 </script>
 
-<BlogLayout>
+<PostLayout>
 	<Post/>
-</BlogLayout>
+</PostLayout>
 
 <style>
 

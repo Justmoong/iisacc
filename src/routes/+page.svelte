@@ -11,6 +11,7 @@
 		<a href="https://www.google.com">Google</a>
 		<a href="UIPlayground">UIPlayground</a>
 		<a href="/Posts/The Illusion of Thoughtfulness">ExamplePost</a>
+		<a href="Gallery">Gallery</a>
 	</div>
 	<hr class="divider" />
 	<p>
