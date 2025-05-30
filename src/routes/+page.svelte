@@ -45,10 +45,13 @@
 
 	.links {
 		display: flex;
-		flex-direction: row;
+		max-width: 100%;
+		flex-flow: row wrap;
+		justify-content: center;
 		gap: 32px;
 		font-size: var(--text-ui);
 		font-weight: 600;
+		line-break: auto;
 	}
 
   .divider {
