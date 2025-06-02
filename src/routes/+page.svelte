@@ -1,5 +1,5 @@
 <script>
-	import Header from '../lib/Constant/Header.svelte';
+	import Header from '$lib/Layouts/Header.svelte';
 
 </script>
 

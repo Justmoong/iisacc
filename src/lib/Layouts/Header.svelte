@@ -1,13 +1,12 @@
 <script>
 
-
 </script>
 
 <div class="links">
-	<a href="https://www.google.com">Google</a>
-	<a href="../../routes/UIPlayground">UIPlayground</a>
-	<a href="/Posts/The Illusion of Thoughtfulness">ExamplePost</a>
-	<a href="../../routes/Gallery">Gallery</a>
+	<a href="/Now">Now</a>
+	<a href="/Posts">Posts</a>
+	<a href="/Gallery">Gallery</a>
+	<a href="/Projects">Projects</a>
 </div>
 
 <style>
