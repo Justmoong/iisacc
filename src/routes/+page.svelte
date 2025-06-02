@@ -41,7 +41,7 @@
 			width: 100%;
       height: 1px;
       background-color: #fff;
-      padding: 16px;
+      margin: 32px 0;
   }
 
 </style>
