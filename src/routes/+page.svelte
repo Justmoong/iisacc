@@ -1,5 +1,5 @@
 <script>
-
+	import Header from '../lib/Constant/Header.svelte';
 
 </script>
 
@@ -7,12 +7,7 @@
 	<div class="title">
 		IISACC
 	</div>
-	<div class="links">
-		<a href="https://www.google.com">Google</a>
-		<a href="UIPlayground">UIPlayground</a>
-		<a href="/Posts/The Illusion of Thoughtfulness">ExamplePost</a>
-		<a href="Gallery">Gallery</a>
-	</div>
+	<Header />
 	<hr class="divider" />
 	<p>
 		Think and develop more existential application and client development
@@ -41,17 +36,6 @@
       width: 100%;
       font-size: 64px;
       font-weight: 600;
-	}
-
-	.links {
-		display: flex;
-		max-width: 100%;
-		flex-flow: row wrap;
-		justify-content: center;
-		gap: 32px;
-		font-size: var(--text-ui);
-		font-weight: 600;
-		line-break: auto;
 	}
 
   .divider {
