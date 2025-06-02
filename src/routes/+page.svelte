@@ -22,9 +22,8 @@
 		width: 100%;
 	  flex-direction: column;
 	  align-items: center;
-		padding: 16px;
 	  margin: 0 auto;
-		gap: 64px;
+		gap: 32px;
 	}
 
 	.title {
@@ -42,7 +41,7 @@
 			width: 100%;
       height: 1px;
       background-color: #fff;
-      margin: 32px 0;
+      padding: 16px;
   }
 
 </style>
