@@ -1,5 +1,6 @@
 <script>
 	import Header from '$lib/Layouts/Header.svelte';
+	import ItemCard from '$lib/UIComponents/Card/ItemCard.svelte'
 
 </script>
 
@@ -8,6 +9,7 @@
 		IISACC
 	</div>
 	<Header />
+	<ItemCard image="/icons/warning.svg" title="This website is currently under work." description="This website remains at a low level of visibility and accessibility due to the absence of a finalized structural framework, and key content has yet to be integrated."
 	<hr class="divider" />
 	<p>
 		Think and develop more existential application and client development
