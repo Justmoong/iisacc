@@ -14,7 +14,7 @@
 	</div>
 	</div>
 	<Header />
-	<ItemCard image="/icons/warning.svg" title="This website is currently under work." description="This website remains at a low level of visibility and accessibility due to the absence of a finalized structural framework, and key content has yet to be integrated."
+	<ItemCard image="/icons/warning.svg" title="This website is currently under work." description="This website remains at a low level of visibility and accessibility due to the absence of a finalized structural framework, and key content has yet to be integrated."/>
 	<hr class="divider" />
 	<p>
 		Think and develop more existential application and client development
@@ -40,7 +40,7 @@
 			justify-content: center;
 	}
 
-  .title-image img {
+  .title-image {
       width: 120px;
       height: auto;
       display: block;
@@ -51,8 +51,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 32px;
-      width: 100%;
+      /*width: 100%;*/
       font-size: 64px;
       font-weight: 600;
 	}
