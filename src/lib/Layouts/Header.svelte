@@ -3,14 +3,14 @@
 </script>
 
 <div class="contents">
-<div class="title">
-	<div class="title-image">
-		<img src="/icons/IISACC.svg" alt="IISACC.com">
-	</div>
-	<div class="title-text">
-		IISACC
-	</div>
-</div>
+	<a href="/" class="title">
+		<div class="title-image">
+			<img src="/icons/IISACC.svg" alt="IISACC.com">
+		</div>
+		<div class="title-text">
+			IISACC
+		</div>
+	</a>
 <div class="links">
 	<a href="/Now">Now</a>
 	<a href="/Posts">Posts</a>
