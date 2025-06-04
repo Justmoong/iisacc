@@ -1,6 +1,8 @@
 <script>
 
 </script>
+
+<div class="contents">
 <div class="title">
 	<div class="title-image">
 		<img src="/icons/IISACC.svg" alt="IISACC.com">
@@ -15,8 +17,17 @@
 	<a href="/Gallery">Gallery</a>
 	<a href="/Projects">Projects</a>
 </div>
+</div>
 
 <style>
+
+		.contents {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				gap: 32px;
+		}
 
 .links {
 	display: flex;
@@ -30,6 +41,7 @@
 }
 
 .title {
+		max-width: 326px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -47,7 +59,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 8px;
+    width: 100%;
     font-size: 64px;
     font-weight: 600;
 }

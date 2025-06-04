@@ -24,7 +24,6 @@
 			flex-direction: column;
 			align-items: left;
 		justify-content: left;
-			margin-top: 32px;
 	}
 
 </style>
