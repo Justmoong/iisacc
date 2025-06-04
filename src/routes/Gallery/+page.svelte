@@ -1,6 +1,10 @@
 <script>
+	import Header from '$lib/Layouts/Header.svelte';
+
 	const imageList = [];
 </script>
+
+<Header/>
 
 <div class="photo-grid">
 	{#each imageList as src}

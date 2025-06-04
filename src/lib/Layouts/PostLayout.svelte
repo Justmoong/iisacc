@@ -4,7 +4,7 @@
 </script>
 
 <div class="blog-container">
-	<Header
+	<Header/>
 	<BackButton />
 	<slot />
 </div>
