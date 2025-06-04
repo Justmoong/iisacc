@@ -22,7 +22,6 @@
 
 	.contents {
 			width: 100%;
-			max-height: 120px;
 			min-width: 300px;
 			display: flex;
 			flex-direction: row;
