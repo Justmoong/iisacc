@@ -24,8 +24,8 @@
 	}
 
 	.post-image {
-			width: 100%;
-			height: auto;
+			width: 480px;
+			height: 270px;
 			object-fit: cover;
 			transition: all 0.3s ease-in-out;
 			display: block;

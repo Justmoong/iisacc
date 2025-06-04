@@ -12,6 +12,11 @@
 	image="/images/TitleBackground1.jpg"
 	path="/Posts/The Illusion of Thoughtfulness"
 	/>
+<PostCard
+	title="Can Trump realize MAGA?"
+	image="/images/MAGA-symbol.jpg"
+	path="/Posts/Can Trump realize MAGA"
+	/>
 </div>
 
 <style>
