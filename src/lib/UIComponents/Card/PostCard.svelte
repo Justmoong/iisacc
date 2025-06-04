@@ -7,7 +7,7 @@
 <article class="post-card">
 	<a href={path}>
 	<img src="{image}" alt="{title}" class="post-image" loading="lazy" />
-	<h2 class="post-title">{title}</h2>
+	<h3 class="post-title">{title}</h3>
 	</a>
 </article>
 
@@ -17,10 +17,6 @@
 			overflow: hidden;
 			background: transparent;
 			margin: 0 auto;
-	}
-
-	.post-card:hover {
-			box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	}
 
 	.post-image {
@@ -34,5 +30,7 @@
 	.post-title {
 			font-size: var(--text-header);
 			color: var(--color-text-primary);
+			margin: 0 auto;
+			margin-bottom: 32px;
 	}
 </style>
