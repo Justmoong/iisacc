@@ -6,7 +6,12 @@
 
 <div class="contents">
 	<div class="title">
+		<div class="title-image">
+			<img src="/icons/IISACC.svg" alt="IISACC.com">
+		</div>
+		<div class="title-text">
 		IISACC
+	</div>
 	</div>
 	<Header />
 	<ItemCard image="/icons/warning.svg" title="This website is currently under work." description="This website remains at a low level of visibility and accessibility due to the absence of a finalized structural framework, and key content has yet to be integrated."
@@ -29,6 +34,19 @@
 	}
 
 	.title {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+	}
+
+  .title-image img {
+      width: 120px;
+      height: auto;
+      display: block;
+  }
+
+	.title-text {
       position: relative;
       display: flex;
       justify-content: center;
