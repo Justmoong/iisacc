@@ -51,7 +51,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      /*width: 100%;*/
+      width: 100%;
       font-size: 64px;
       font-weight: 600;
 	}
