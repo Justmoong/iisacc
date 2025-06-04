@@ -39,11 +39,4 @@
       font-weight: 600;
 	}
 
-  .divider {
-			width: 100%;
-      height: 1px;
-      background-color: #fff;
-      margin: 32px 0;
-  }
-
 </style>
