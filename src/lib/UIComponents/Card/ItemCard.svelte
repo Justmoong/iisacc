@@ -33,10 +33,6 @@
 	}
 
 	.icon {
-			width: 88px;
-			height: 88px;
-      min-width: 88px;
-      min-height: 88px;
       display: flex;
       justify-content: center;
       align-items: flex-start;
