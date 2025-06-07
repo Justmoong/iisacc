@@ -8,9 +8,9 @@
 	<Header />
 <BackButton/>
 <PostCard
-	title="The Illusion of Thoughtfulness"
+	title="The Illusion of Professional Activity"
 	image="/images/TitleBackground1.jpg"
-	path="/Posts/The Illusion of Thoughtfulness"
+	path="/Posts/The Illusion of Professional Activity"
 	/>
 <PostCard
 	title="Can Trump realize MAGA?"
