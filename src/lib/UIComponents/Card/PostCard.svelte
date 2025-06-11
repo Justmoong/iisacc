@@ -25,11 +25,13 @@
 			object-fit: cover;
 			transition: all 0.3s ease-in-out;
 			display: block;
+			padding-bottom: 16px;
 	}
 
 	.post-title {
 			font-size: var(--text-header);
 			color: var(--color-text-primary);
+			font-weight: 500;
 			margin: 0 auto;
 			margin-bottom: 32px;
 	}

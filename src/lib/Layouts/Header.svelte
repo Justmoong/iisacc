@@ -16,18 +16,20 @@
 	<a href="/Posts">Posts</a>
 	<a href="/Gallery">Gallery</a>
 	<a href="/Projects">Projects</a>
+	<a href="/Logs">Logs</a>
 </div>
 </div>
 
 <style>
 
-		.contents {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-				gap: 32px;
-		}
+.contents {
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 32px;
+}
 
 .links {
 	display: flex;

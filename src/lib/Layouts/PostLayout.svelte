@@ -16,4 +16,9 @@
 		gap:0;
 }
 
+h1 {
+		font-size: var(--text-subheader);
+		font-weight: 500;
+}
+
 </style>
