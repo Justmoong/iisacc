@@ -1,13 +1,11 @@
 <script>
 	import PostCard from '$lib/UIComponents/Card/PostCard.svelte';
-	import BackButton from '$lib/UIComponents/BackButton.svelte';
 	import Header from '$lib/Layouts/Header.svelte';
 </script>
 
 
 <Header />
 <div class="posts-container">
-	<BackButton/>
 <PostCard
 	title="The paradox of technological progress"
 	date="2025-06-12"
@@ -28,6 +26,7 @@
 
 <style>
 	.posts-container {
+			margin-top: 32px;
 			flex-direction: column;
 			align-items: left;
 	}
