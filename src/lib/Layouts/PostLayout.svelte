@@ -10,13 +10,17 @@
 </div>
 
 <style>
-.blog-container {
-		align-items: left;
-}
+    :global(.blog-container) {
+        align-items: left;
+    }
 
-h1 {
-		font-size: var(--text-subheader);
-		font-weight: 500;
-}
+    :global(.blog-container h1) {
+        font-size: var(--text-subtitle);
+        font-weight: 500;
+        padding-bottom: 24px;
+    }
 
+		:global(.blog-container p) {
+				padding-bottom: 24px;
+		}
 </style>
