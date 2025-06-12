@@ -26,7 +26,6 @@
 
 <style>
 	.posts-container {
-			margin-top: 32px;
 			flex-direction: column;
 			align-items: left;
 	}
