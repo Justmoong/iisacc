@@ -9,15 +9,21 @@
 <div class="posts-container">
 	<BackButton/>
 <PostCard
-	title="The Illusion of Professional Activity"
-	date="2025-05-28"
-	path="/Posts/The Illusion of Professional Activity"
-	/>
+	title="The paradox of technological progress"
+	date="2025-06-12"
+	path="/Posts/The paradox of technological progress"
+/>
 <PostCard
 	title="Can Trump realize MAGA?"
 	date="2025-06-01"
 	path="/Posts/Can Trump realize MAGA"
-	/>
+/>
+<PostCard
+	title="The Illusion of Professional Activity"
+	date="2025-05-28"
+	path="/Posts/The Illusion of Professional Activity"
+/>
+
 </div>
 
 <style>
