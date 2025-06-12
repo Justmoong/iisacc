@@ -61,7 +61,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-size: 64px;
+    font-size: 72px;
     font-weight: 600;
 }
 

@@ -18,10 +18,10 @@
 	/* contents font sizes */
 	--text-title: 48px;
 	--text-subtitle: 36px;
-	--text-header: 24px;
-	--text-subheader: 20px;
-	--text-body: 17px;
-	--text-caption: 13px;
+	--text-header: 30px;
+	--text-subheader: 24px;
+	--text-body: 18px;
+	--text-caption: 16px;
 
 	/* ui font sizes */
 	--text-ui: 18px;
@@ -52,6 +52,7 @@ body {
 
 p {
 	font-size: var(--text-body);
+	font-weight: 400;
 	color: var(--color-text-secondary);
 }
 
