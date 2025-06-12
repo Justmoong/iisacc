@@ -4,17 +4,18 @@
 	import Header from '$lib/Layouts/Header.svelte';
 </script>
 
+
+<Header />
 <div class="posts-container">
-	<Header />
-<BackButton/>
+	<BackButton/>
 <PostCard
 	title="The Illusion of Professional Activity"
-	image="/images/TitleBackground1.jpg"
+	date="2025-05-28"
 	path="/Posts/The Illusion of Professional Activity"
 	/>
 <PostCard
 	title="Can Trump realize MAGA?"
-	image="/images/MAGA-symbol.jpg"
+	date="2025-06-01"
 	path="/Posts/Can Trump realize MAGA"
 	/>
 </div>
@@ -23,7 +24,6 @@
 	.posts-container {
 			flex-direction: column;
 			align-items: left;
-		justify-content: left;
 	}
 
 </style>

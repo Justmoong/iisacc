@@ -24,7 +24,7 @@
 	--text-caption: 16px;
 
 	/* ui font sizes */
-	--text-ui: 18px;
+	--text-ui: 20px;
 }
 
 * {
@@ -54,6 +54,7 @@ p {
 	font-size: var(--text-body);
 	font-weight: 400;
 	color: var(--color-text-secondary);
+
 }
 
 a {

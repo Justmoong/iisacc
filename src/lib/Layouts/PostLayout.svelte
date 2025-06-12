@@ -3,17 +3,15 @@
 	import Header from '$lib/Layouts/Header.svelte';
 </script>
 
+<Header/>
 <div class="blog-container">
-	<Header/>
 	<BackButton />
 	<slot />
 </div>
 
 <style>
 .blog-container {
-	white-space: pre-line;
-	line-height: 1.6;
-		gap:0;
+		align-items: left;
 }
 
 h1 {

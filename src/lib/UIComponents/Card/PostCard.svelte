@@ -1,38 +1,36 @@
 <script>
 	export let title;
-	export let image;
+	export let date;
 	export let path;
 </script>
 
 <article class="post-card">
 	<a href={path}>
-	<img src="{image}" alt="{title}" class="post-image" loading="lazy" />
 	<h3 class="post-title">{title}</h3>
+		<p class="date">Posted at : {date}</p>
 	</a>
 </article>
 
 <style>
 	.post-card {
-			max-width: 420px;
 			overflow: hidden;
 			background: transparent;
-			margin: 0 auto;
-	}
-
-	.post-image {
-			width: 480px;
-			height: 270px;
-			object-fit: cover;
-			transition: all 0.3s ease-in-out;
-			display: block;
-			padding-bottom: 16px;
+			gap: 0;
+			margin-bottom: 32px;
 	}
 
 	.post-title {
 			font-size: var(--text-header);
 			color: var(--color-text-primary);
 			font-weight: 500;
-			margin: 0 auto;
-			margin-bottom: 32px;
+      margin-block-end: 0;
+      margin-block-start: 0;
+	}
+
+	.date {
+			font-size: var(--text-ui);
+			font-weight: 300;
+      margin-block-end: 0;
+      margin-block-start: 0;
 	}
 </style>

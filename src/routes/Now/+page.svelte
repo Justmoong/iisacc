@@ -4,7 +4,7 @@
 
 <Header/>
 <h2 class="title">
-	I'm prepare move new home
+	I'm prepare move to new home
 </h2>
 <p>
 	A simple life, far removed from the dense crowds and vast machinery of society—a secluded place where peace and freedom prevail precisely because of its remoteness.
