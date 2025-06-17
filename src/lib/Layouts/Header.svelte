@@ -13,6 +13,7 @@
 	</a>
 <div class="links">
 	<a href="/Now">Now</a>
+	<a href="/Works">Works</a>
 	<a href="/Posts">Posts</a>
 	<a href="/Projects">Projects</a>
 	<a href="/Logs">Logs</a>
