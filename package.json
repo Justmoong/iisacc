@@ -7,7 +7,7 @@
 		"dev": "vite dev",
 		"build": "npm run generate-rss && vite build",
 		"preview": "vite preview",
-		"generate-rss": "node dist/generate-rss.js",
+		"generate-rss": "node scripts/generate-rss.js",
 		"prepare": "svelte-kit sync || echo ''",
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint ."
