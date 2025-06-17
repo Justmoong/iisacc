@@ -20,7 +20,7 @@
 	}
 
 	.post-title {
-			font-size: var(--text-header);
+			font-size: var(--text-subheader);
 			color: var(--color-text-primary);
 			font-weight: 500;
       margin-block-end: 0;
@@ -28,7 +28,7 @@
 	}
 
 	.date {
-			font-size: var(--text-ui);
+			font-size: var(--text-caption);
 			font-weight: 300;
       margin-block-end: 0;
       margin-block-start: 0;

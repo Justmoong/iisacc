@@ -7,6 +7,7 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
+		"generate-rss": "node dist/generate-rss.js",
 		"prepare": "svelte-kit sync || echo ''",
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint ."
@@ -29,6 +30,7 @@
 	},
 	"dependencies": {
 		"@sveltejs/adapter-static": "^3.0.8",
+		"gray-matter": "^4.0.3",
 		"svelte-preprocess": "^6.0.3"
 	}
 }

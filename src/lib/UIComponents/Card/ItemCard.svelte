@@ -54,7 +54,6 @@
 
 	.description {
 			width: 100%;
-			font-weight: 600;
       font-size: var(--text-caption);
 	}
 

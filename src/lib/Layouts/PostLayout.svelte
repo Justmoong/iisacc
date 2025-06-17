@@ -13,8 +13,8 @@
     }
 
     :global(.blog-container h1) {
-        font-size: var(--text-subtitle);
-        font-weight: 500;
+        font-size: var(--text-header);
+        font-weight: 400;
         padding-bottom: 24px;
     }
 

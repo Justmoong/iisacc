@@ -8,7 +8,7 @@
 	--color-accent-cyan: #13FFD6;
 	--color-accent-indigo: #FFD30A;
 
-	--color-background-primary: #19191A;
+	--color-background-primary: #0a0a0a;
 	--color-background-secondary: #3B3D40;
 
 	--color-text-primary: #EAECF6;
@@ -16,12 +16,12 @@
 	--color-text-disabled: #52535A;
 
 	/* contents font sizes */
-	--text-title: 48px;
-	--text-subtitle: 36px;
-	--text-header: 30px;
-	--text-subheader: 24px;
-	--text-body: 18px;
-	--text-caption: 16px;
+	--text-title: 36px;
+	--text-subtitle: 30px;
+	--text-header: 24px;
+	--text-subheader: 20px;
+	--text-body: 17px;
+	--text-caption: 14px;
 
 	/* ui font sizes */
 	--text-ui: 20px;
@@ -52,7 +52,7 @@ body {
 
 p {
 	font-size: var(--text-body);
-	font-weight: 400;
+	font-weight: 300;
 	color: var(--color-text-secondary);
 }
 
