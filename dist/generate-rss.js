@@ -51,5 +51,5 @@ const rss = `<?xml version="1.0" encoding="UTF-8" ?>
   </channel>
 </rss>`;
 
-fs.mkdirSync('dist', { recursive: true });
-fs.writeFileSync(path.resolve('dist/rss.xml'), rss);
+fs.mkdirSync('static', { recursive: true });
+fs.writeFileSync(path.resolve('static/rss.xml'), rss);
