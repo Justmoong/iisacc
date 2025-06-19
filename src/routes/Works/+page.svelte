@@ -4,7 +4,7 @@
 
 <Header/>
 
-<h2>Life taker</h2>
+<h2>Time Scopes</h2>
 <a href="/Works/Privacy">Privacy policy</a>
 
 <style>

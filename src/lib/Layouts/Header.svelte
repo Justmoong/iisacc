@@ -62,7 +62,7 @@
     align-items: center;
     width: 100%;
     font-size: 72px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 </style>
