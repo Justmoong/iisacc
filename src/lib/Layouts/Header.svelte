@@ -27,7 +27,8 @@
 		align-items: center;
 		justify-content: center;
 		gap: 32px;
-		margin-bottom: 64px;
+    margin-top: 32px;
+		margin-bottom: 32px;
 }
 
 .links {
