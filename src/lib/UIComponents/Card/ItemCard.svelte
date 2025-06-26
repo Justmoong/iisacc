@@ -25,12 +25,16 @@
 			min-width: 300px;
 			display: flex;
 			flex-direction: row;
-			border-radius: 16px;
-			background-color: #515151;
+			align-items: center;
 			padding: 16px;
-			align-content: left;
+			padding-bottom: 24px;
+      padding-top: 24px;
 			color: var(--color-text-primary);
-	}
+			gap: 32px;
+      border-top: 2px solid var(--color-background-secondary);
+      border-bottom: 2px solid var(--color-background-secondary);
+
+  }
 
 	.icon {
       display: flex;
@@ -49,12 +53,14 @@
 
 	.title {
 			font-weight: semibold;
-      font-size: var(--text-subheader);
+      font-size: var(--text-header);
 	}
 
-	.description {
-			width: 100%;
+  .description {
+      width: 100%;
       font-size: var(--text-caption);
-	}
+      line-clamp: 2;
+  }
+
 
 </style>
