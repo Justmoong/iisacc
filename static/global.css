@@ -44,7 +44,7 @@ body {
 	color: var(--color-text-primary);
 	display: flex;
 	flex-direction: column;
-	padding: 16px;
+	padding: 32px;
 	margin: 0 auto;
 }
 
