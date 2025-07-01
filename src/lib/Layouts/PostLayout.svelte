@@ -19,7 +19,7 @@
 
     :global(.blog-container h1) {
         font-size: var(--text-header);
-        font-weight: 400;
+        font-weight: 500;
         padding-bottom: 24px;
     }
 

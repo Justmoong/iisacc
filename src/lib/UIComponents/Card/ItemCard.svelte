@@ -31,8 +31,8 @@
       padding-top: 24px;
 			color: var(--color-text-primary);
 			gap: 32px;
-      border-top: 2px solid var(--color-background-secondary);
-      border-bottom: 2px solid var(--color-background-secondary);
+      border-top: 0.5px solid var(--color-text-primary);
+      border-bottom: 0.5px solid var(--color-text-primary);
 
   }
 

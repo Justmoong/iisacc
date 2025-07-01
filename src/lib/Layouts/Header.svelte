@@ -38,7 +38,7 @@
 	justify-content: center;
 	gap: 32px;
 	font-size: var(--text-ui);
-	font-weight: 600;
+	font-weight: 500;
 	line-break: auto;
 }
 
