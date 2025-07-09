@@ -69,6 +69,7 @@
 
 img {
 		border-radius: 0%;
+    aspect-ratio: 1 / 1;
 }
 
 </style>
