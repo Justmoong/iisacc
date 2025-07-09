@@ -54,6 +54,7 @@
     width: 120px;
     height: auto;
     display: block;
+    border-radius: 0%;
 }
 
 .title-text {
@@ -64,6 +65,10 @@
     width: 100%;
     font-size: 72px;
     font-weight: 400;
+}
+
+img {
+		border-radius: 0%;
 }
 
 </style>
