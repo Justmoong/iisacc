@@ -4,12 +4,9 @@
 
 <div class="contents">
 	<div class="vstack">
-		<div class="translate-warn">
-				<img class="translate-warn-icon" src="/icons/warning.svg" alt="Translation Warning">
 			<p class="translate-warn-text">
-				Sometimes, I Use ChatGPT for translation and i know it causes inconsistencies.
+				Sometimes, I Use ChatGPT for translation and i know it can causes inconsistencies.
 			</p>
-		</div>
 </div>
 
 </div>
@@ -29,23 +26,10 @@
       flex-direction: column;
   }
 
-  .translate-warn {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-			gap: 32px;
-  }
-
-	.translate-warn-icon {
-      width: 32px;
-      height: auto;
-      object-fit: contain;
-			color: white;
-	}
-
 	.translate-warn-text {
       margin-block-end: 0;
       margin-block-start: 0;
+			color: var(--color-text-secondary);
 	}
 
 </style>

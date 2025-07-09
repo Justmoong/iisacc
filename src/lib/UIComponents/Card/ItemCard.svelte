@@ -21,19 +21,18 @@
 <style>
 
 	.contents {
-			width: 100%;
+			max-width: 100%;
 			min-width: 300px;
 			display: flex;
 			flex-direction: row;
 			align-items: center;
-			padding: 16px;
+			padding: 24px;
 			padding-bottom: 24px;
       padding-top: 24px;
 			color: var(--color-text-primary);
 			gap: 32px;
-      border-top: 0.5px solid var(--color-text-primary);
-      border-bottom: 0.5px solid var(--color-text-primary);
-
+			background-color: var(--color-background-secondary);
+			border-radius: 36px;
   }
 
 	.icon {

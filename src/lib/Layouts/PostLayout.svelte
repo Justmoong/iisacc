@@ -27,12 +27,4 @@
 				padding-bottom: 24px;
 		}
 
-    :global img {
-        width: auto;
-        max-width: 100%;
-        object-fit: contain;
-        display: block;
-        margin: 0 auto;
-    }
-
 </style>

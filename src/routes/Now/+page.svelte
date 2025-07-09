@@ -1,8 +1,8 @@
 <script>
-	import Post20250530 from '$lib/Now/20250530.svx';
+	import Now20250530 from '$lib/Now/20250530.svx';
 </script>
 
-<Post20250530 />
+<Now20250530 />
 
 <style>
 
