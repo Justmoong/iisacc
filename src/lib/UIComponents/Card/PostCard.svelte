@@ -48,6 +48,7 @@
 
 	.date {
 			font-size: var(--text-caption);
+			color: var(--color-text-secondary);
 			font-weight: 300;
       margin-block-end: 0;
       margin-block-start: 0;
