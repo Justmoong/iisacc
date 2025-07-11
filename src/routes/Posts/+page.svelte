@@ -1,6 +1,7 @@
 <script>
 	import PostCard from '$lib/UIComponents/Card/PostCard.svelte';
 	import Header from '$lib/Layouts/Header.svelte';
+	import Footer from '$lib/Layouts/Footer.svelte';
 </script>
 
 
@@ -21,6 +22,7 @@
 	date="2025-05-28"
 	path="/Posts/The Illusion of Professional Activity"
 />
+<Footer />
 
 </div>
 

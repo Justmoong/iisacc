@@ -3,13 +3,6 @@
 	import Footer from '$lib/Layouts/Footer.svelte';
 </script>
 
-<Header/>
-
-<h2>Time Scopes</h2>
-<a href="/Works/Privacy">Privacy policy</a>
+<Header />
 
 <Footer />
-
-<style>
-
-</style>

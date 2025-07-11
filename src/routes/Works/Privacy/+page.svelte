@@ -1,5 +1,6 @@
 <script>
 	import Header from '$lib/Layouts/Header.svelte';
+	import Footer from '$lib/Layouts/Footer.svelte';
 </script>
 
 <Header/>
@@ -139,6 +140,8 @@
 <ul>
 	<li>By email: andudyun0504@gmail.com</li>
 </ul>
+
+<Footer	/>
 
 <style>
 
