@@ -7,6 +7,11 @@
 
 <Header />
 <div class="posts-container">
+	<PostCard
+		title="Less Internet, Local First"
+		date="2025-07-16"
+		path="/Posts/Less Internet, Local First"
+	/>
 <PostCard
 	title="The paradox of technological progress"
 	date="2025-06-12"
