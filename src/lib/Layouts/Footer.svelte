@@ -5,7 +5,7 @@
 <div class="contents">
 	<div class="vstack">
 			<p class="translate-warn-text">
-				Sometimes, I Use ChatGPT for translation and i know it can causes inconsistencies.
+				Sometimes, I Use LLM for translation and i know it can causes inconsistencies.
 			</p>
 </div>
 
