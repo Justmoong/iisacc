@@ -7,8 +7,11 @@
 
 <a href="/Works/TimeScopes">
 <h2>Time Scopes</h2>
+	<p>
+		Time Scopes is a life time tracker. It shows to you remaining your lifetime and other informations
+	</p>
 </a>
-<a href="/Works/Privacy">Privacy policy</a>
+
 
 <Footer />
 
