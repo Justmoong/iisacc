@@ -1,8 +1,11 @@
 <script>
 	import Header from '$lib/Layouts/Header.svelte';
-	import Footer from '$lib/Layouts/Footer.svelte';
 </script>
 
 <Header />
 
-<Footer />
+<h1>Time Scope</h1>
+
+<style>
+
+</style>
