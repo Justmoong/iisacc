@@ -4,9 +4,24 @@
 
 <Header />
 
-<h1>Time Scope</h1>
-<a href="/Works/TimeScopes/Privacy">Privacy policy</a>
+<div>
+	<img src="/images/apple-logo-WWDC.jpg" />
+	<h1 class="app-name">Time Scopes</h1>
+	<a href="/Works/TimeScopes/Privacy">Privacy policy</a>
+</div>
 
 <style>
+	img {
+			width: 256px;
+			height: 256px;
+			border: 1px solid #fff;
+			border-radius: 48px;
+	}
+
+	.app-name {
+			text-align: center;
+			margin-top: 32px;
+			margin-bottom: 32px;
+	}
 
 </style>
