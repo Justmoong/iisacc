@@ -5,7 +5,7 @@
 <Header />
 
 <div>
-	<img src="/images/apple-logo-WWDC.jpg" />
+	<img src="/images/app/Time%20Scopes.png" alt="Time Scopes"/>
 	<h1 class="app-name">Time Scopes</h1>
 	<a href="/Works/TimeScopes/Privacy">Privacy policy</a>
 </div>
