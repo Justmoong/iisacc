@@ -14,7 +14,6 @@
 	img {
 			width: 256px;
 			height: 256px;
-			border: 1px solid #fff;
 			border-radius: 48px;
 	}
 
