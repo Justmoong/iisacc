@@ -13,7 +13,7 @@
 	</a>
 <div class="links">
 	<a href="/Now">Now</a>
-	<a href="/Works">Works</a>
+	<a href="/Apps">Apps</a>
 	<a href="/Posts">Posts</a>
 </div>
 </div>

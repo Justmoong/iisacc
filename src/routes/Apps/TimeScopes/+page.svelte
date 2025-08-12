@@ -7,7 +7,8 @@
 <div>
 	<img src="/images/app/Time%20Scopes.png" alt="Time Scopes"/>
 	<h1 class="app-name">Time Scopes</h1>
-	<a href="/Works/TimeScopes/Privacy">Privacy policy</a>
+	<p>Time Scopes is a life time tracker. It shows to you remaining your lifetime and other informations</p>
+	<a class="privacy"href="/src/routes/Apps/TimeScopes/Privacy">Privacy policy</a>
 </div>
 
 <style>
@@ -21,6 +22,10 @@
 			text-align: center;
 			margin-top: 32px;
 			margin-bottom: 32px;
+	}
+
+	.privacy {
+			margin-top: 32px;
 	}
 
 </style>
