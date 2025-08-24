@@ -43,7 +43,7 @@
 }
 
 .title {
-		max-width: 326px;
+		max-width: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,7 +63,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-size: 72px;
+    font-size: 96px;
     font-weight: 400;
 }
 
