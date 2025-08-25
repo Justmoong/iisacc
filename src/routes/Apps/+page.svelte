@@ -56,6 +56,6 @@
 	.platform {
 		width: 24px;
 		height: 24px;
-		margin-right: 32px;
+		margin-right: 0;
 	}
 </style>
