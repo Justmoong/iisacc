@@ -25,8 +25,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		/*justify-content: center;*/
-		margin-top: 128px;
+		margin-top: 96px;
 		width: 100%;
 	}
 
@@ -40,7 +39,6 @@
 	.appinfo {
 		display: flex;
 		flex-direction: row;
-		 /* 좌측/우측 끝으로 분배 */
 		align-items: baseline;
 		width: 100%;
 		justify-content: space-between;
