@@ -27,9 +27,9 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		gap: 32px;
-    margin-top: 32px;
-		margin-bottom: 32px;
+		gap: 16px;
+    margin-top: 16px;
+		margin-bottom: 16px;
 }
 
 .links {
@@ -44,7 +44,7 @@
 }
 
 .title {
-		max-width: 326px;
+		max-width: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -52,7 +52,7 @@
 }
 
 .title-image {
-    width: 120px;
+    width: 96px;
     height: auto;
     display: block;
     border-radius: 0%;
@@ -64,7 +64,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-size: 72px;
+    font-size: 64px;
     font-weight: 400;
 }
 

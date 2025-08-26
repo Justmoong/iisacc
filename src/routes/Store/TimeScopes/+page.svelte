@@ -8,7 +8,7 @@
 	<img src="/images/app/Time%20Scopes.png" alt="Time Scopes"/>
 	<h1 class="app-name">Time Scopes</h1>
 	<p>Time Scopes is a life time tracker. It shows to you remaining your lifetime and other informations</p>
-	<a class="privacy"href="/src/routes/Store/TimeScopes/Privacy">Privacy policy</a>
+	<a class="privacy"href="/src/routes/Apps/TimeScopes/Privacy">Privacy policy</a>
 </div>
 
 <style>
