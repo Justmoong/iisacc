@@ -32,6 +32,13 @@ Time Scopes">
 			border-radius: 48px;
 	}
 
+	.appicon {
+			width: 100%;
+			height: auto;
+			aspect-ratio: 1/1.6;
+			margin-bottom: 32px;
+	}
+
 	.app-name {
 			text-align: center;
 			margin-top: 32px;
