@@ -1,5 +1,6 @@
 <script>
 	import Header from '$lib/Layouts/Header.svelte';
+	import Footer from '$lib/Layouts/Footer.svelte';
 </script>
 
 <Header />
@@ -16,6 +17,8 @@ Time Scopes">
 	<img class="qrcode" src="/images/app/TimeScopes-qr-code.png" alt="QR Code">
 	<a class="privacy"href="/Store/TimeScopes/Privacy">Privacy policy</a>
 </div>
+
+<Footer />
 
 <style>
 
